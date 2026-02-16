@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+img {
+  cursor: pointer;
+}
+
+/* sidebar */
+
+.shortcutLinks-img img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.side-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.subscribedList-img img {
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.active img {
+  padding-bottom: 2px;
+  border-bottom: 3px solid red;
+}
+
+.scrollbar {
+  overflow-y: scroll;
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* feed cards */
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  margin: 5px 0;
+}
+
+.card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  margin: 6px 0;
+}
+
+.card p {
+  font-size: 14px;
+}
